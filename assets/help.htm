@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>FinDroid Help</title>
+<style type="text/css">
+.style1 {
+	font-size: xx-large;
+}
+.style3 {
+	font-size: large;
+}
+.style4 {
+	font-size: large;
+	margin-left: 40px;
+}
+.style6 {
+	font-size: large;
+	margin-left: 40px;
+	text-align: left;
+}
+.style7 {
+	font-size: large;
+	margin-left: 80px;
+}
+.style8 {
+	text-align: left;
+	font-size: large;
+}
+.style11 {
+	font-size: large;
+	font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<p class="style1"><strong>FinDroid Help:</strong></p>
+<p class="style3"><strong>Introduction:</strong></p>
+<p class="style3">FinDroid is a GPS and Messaging based phone finder 
+application. This application will provide you great help in finding your lost 
+phone. This application will provide you many facilities like the Map and the 
+Radar views to get your lost phone back</p>
+<p class="style3">NOTE: GPS has to be activated manually. No application has the 
+authority to do so.</p>
+<hr />
+<p class="style3"><strong>Application Features:</strong></p>
+<ul>
+	<li>
+	<p class="style3">SEARCH A PHONE:</p>	
+	<p class="style6">This button will let you get the GPS co-ordinates from the 
+	lost phone by the means of messaging. You do not have to type the message, the 
+	FinDroid will do so for you. This feature requires FinDroid to be installed on 
+	the lost phone to communicate. After pressing this button the application will 
+	ask for the lost phone&#39;s contact number and its FinDroid password. Please do 
+	provide the details and press OK. This will send a message to the lost phone and 
+	wait till the co-ordinates are re-lied back to us.</p>
+	</li>
+	<li>
+	<p class="style3">Resume:</p>	
+	<p class="style4">This menu button will launch the map view and the radar 
+	view. The map view shows the lost phones location as well as your location. 
+	It also has several options for navigating and ringing the phone from there 
+	directly.</p>
+	</li>
+</ul>
+
+<ul>
+	<li class="style3">Change Pasword:</li>
+</ul>
+<p class="style7">Change the FinDroid password </p>
+<ul>
+	<li class="style3">Settings:</li>
+</ul>
+<p class="style7">Opens the preferences activity where you can customize the way 
+you want this application to work.</p>
+<hr />
+<p class="style8"><strong>How does it work?</strong></p>
+<ul>
+	<li>
+	<p class="style8">Once FinDroid is activated, it will monitor incoming 
+	messages for the keywords. (You can set keywords of your own choice for 
+	alerting FinDroid)</p>
+	</li>
+	<li>
+	<p class="style8">The keywords will tell FinDroid to perform specific 
+	actions. They may be sending the GPS co-ordinates or ringing the phone.</p>
+	</li>
+	<li>
+	<p class="style8">After confirming the keyword, FinDroid performs the 
+	required action.</p>
+	</li>
+</ul>
+<hr />
+<p class="style8"><strong>How does the search feature works?</strong></p>
+<ul>
+	<li>
+	<p class="style8">The search feature requires FinDroid installed on the lost 
+	phone.</p>
+	</li>
+	<li>
+	<p class="style8">On clicking the &#39;SEARCH A PHONE&#39; button, user should enter 
+	the phone number and FinDroid password of the lost phone (The password is 
+	required so that no unknown person can track your location).</p>
+	</li>
+	<li>
+	<p class="style8">After entering the details, FinDroid will send an SMS to 
+	the lost phone for getting the GPS co-ordinates. NOTE: The time taken by 
+	FinDroid to get the GPS location may vary on different phones.</p>
+	</li>
+	<li>
+	<p class="style8">The lost phone will then send you back the GPS 
+	co-ordinates after confirming the password.</p>
+	</li>
+	<li>
+	<p class="style8">On receiving the GPS co-ordinates, the FinDroid 
+	application will provide you map and radar views to track your lost phone.</p>
+	</li>
+</ul>
+<hr />
+<p class="style8"><strong>How does the sim card change detection works?</strong></p>
+<ul>
+	<li>
+	<p class="style8">Once this feature is activated, FinDroid will check for 
+	unwanted sim card change on every boot.</p>
+	</li>
+	<li>
+	<p class="style8">If the inserted sim card is not registered with FinDroid, 
+	it will get the sim&#39;s info and the GPS location and will send it to the user 
+	defined phone number</p>
+	</li>
+	<li>
+	<p class="style8">You can change the alert phone number and register sim 
+	card in the settings.</p>
+	</li>
+</ul>
+<hr />
+<p class="style8"><strong>FinDroid permissions explained:</strong></p>
+<ul>
+	<li class="style11">SEND_SMS:</li>
+</ul>
+<p class="style7">For sending the GPS location to the required number.</p>
+<ul>
+	<li class="style3"><strong>RECEIVE_SMS:</strong></li>
+</ul>
+<p class="style7">For monitoring incoming messages for FinDroid keywords.</p>
+<ul>
+	<li class="style11">ACCESS_FINE_LOCATION:</li>
+</ul>
+<p class="style7">To get the GPS location.</p>
+<ul>
+	<li class="style11">INTERNET:</li>
+</ul>
+<p class="style7">To view the map in the map activity.</p>
+<ul>
+	<li class="style11">READ_PHONE_STATE:</li>
+</ul>
+<p class="style7">To read the sim card details.</p>
+<ul>
+	<li class="style11">RECEIVE_BOOT_COMPLETED:</li>
+</ul>
+<p class="style7">To check if the phone is booted, so that sim card change can 
+be detected.</p>
+
+</body>
+
+</html>

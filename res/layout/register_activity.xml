@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:layout_height="fill_parent"
+  android:layout_width="fill_parent"
+  android:background="#ececec"
+  android:layout_gravity="center">
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#ececec"
+  android:gravity="center"
+  android:orientation="vertical"
+  android:padding="30dip">
+    <TextView android:textColor="#2f6699" android:text="Register" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_gravity="left"></TextView>
+    <TextView android:textColor="#2f6699" android:text="Phone no.:" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_gravity="left"></TextView>
+    <EditText android:id="@+id/txtRegPhone" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:textColor="#2f6699" android:text="First name:" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_gravity="left"></TextView>
+    <EditText android:id="@+id/txtFname" android:layout_height="wrap_content" android:layout_width="match_parent"></EditText>
+    <TextView android:textColor="#2f6699" android:text="Last name:" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_gravity="left"></TextView>
+    <EditText android:id="@+id/txtLname" android:layout_height="wrap_content" android:layout_width="match_parent"></EditText>
+    <TextView android:textColor="#2f6699" android:text="E-mail:" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_gravity="left"></TextView>
+    <EditText android:id="@+id/txtRegEmail" android:layout_height="wrap_content" android:inputType="textEmailAddress" android:layout_width="match_parent"></EditText>
+  		<LinearLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:background="#ececec"
+  		android:gravity="center"
+  		android:orientation="horizontal"
+  		android:padding="0dip">
+  		<Button
+		android:id="@+id/btn_reg"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		style="@style/button"
+		android:text="Register"
+		android:layout_weight="1"/>
+		<Button
+		android:id="@+id/btn_cancel"
+		android:layout_width="fill_parent" 
+		layout_height="wrap_content"
+		style="@style/button"
+		android:text="Cancel"
+		android:layout_weight="1"/>
+		</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+

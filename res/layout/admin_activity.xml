@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:layout_height="fill_parent"
+  android:layout_width="fill_parent"
+  android:background="#ececec"
+  android:layout_gravity="center">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#ececec"
+  android:padding="30dip"
+  android:orientation="vertical"
+  android:gravity="center">
+  <ImageView 
+  		android:id="@+id/ImageView01" 
+  		android:layout_width="wrap_content" 
+  		android:layout_height="wrap_content" 
+  		android:src="@drawable/fin_droid_logo_admin"/>
+  		<Button
+		android:id="@+id/btn_enable_admin"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		style="@style/button"
+		android:text="Enable device admin"/>
+		<Button
+		android:id="@+id/btn_set_admin_pass"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		style="@style/button"
+		android:text="Set phone password"/>
+</LinearLayout>
+</ScrollView>

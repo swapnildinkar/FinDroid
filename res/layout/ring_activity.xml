@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#ececec"
+  android:padding="30dip"
+  android:orientation="vertical">
+  <ImageView 
+  		android:id="@+id/ImageView01" 
+  		android:layout_width="wrap_content" 
+  		android:layout_height="wrap_content" 
+  		android:src="@drawable/fin_droid_logo"
+  		android:layout_gravity="center_horizontal">
+  </ImageView>
+  <Button
+		android:id="@+id/btnStopRing"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		style="@style/button"
+		android:layout_gravity="center_horizontal"
+		android:text="STOP RINGING"/>
+</LinearLayout>

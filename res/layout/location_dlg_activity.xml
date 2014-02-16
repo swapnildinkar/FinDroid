@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/widget78"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+>
+<View
+android:id="@+id/widget79"
+android:layout_width="fill_parent"
+android:layout_height="1px"
+android:background="#ffffffff"
+>
+</View>
+<TextView
+android:id="@+id/locationMsg"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Location received.\nView the location on the map?"
+android:textColor="#ffffff"
+android:paddingLeft="10dip" 
+android:paddingRight="10dip"
+>
+</TextView>
+<LinearLayout
+android:id="@+id/widget81"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:padding="1dip"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal"
+android:background="@android:color/darker_gray"
+android:layout_weight="1"
+android:layout_gravity="bottom"
+>
+<Button  android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent" android:text="Yes" android:id="@+id/btnYes"></Button>
+<Button  android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent" android:text="No" android:id="@+id/btnNo"></Button>
+</LinearLayout>
+</LinearLayout>

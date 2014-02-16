@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#ececec"
+  android:padding="20dip"
+  android:orientation="vertical" android:gravity="center">
+    <TextView android:layout_height="wrap_content" android:text="Temp" android:id="@+id/txtPhoneNo" android:layout_width="wrap_content" android:textSize="26sp" android:textStyle="bold" android:textColor="#000000"/>
+   		<Button
+		android:id="@+id/btn_update_location"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		style="@style/button"
+		android:layout_gravity="center_horizontal"
+		android:text="Update location"/>
+		<Button
+		android:id="@+id/btn_ring_phone"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		style="@style/button"
+		android:layout_gravity="center_horizontal"
+		android:text="Ring and Vibrate"/>
+		<Button
+		android:id="@+id/btn_lock_phone"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		style="@style/button"
+		android:layout_gravity="center_horizontal"
+		android:text="Lock the phone"/>
+		<Button
+		android:id="@+id/btn_wipe_phone"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		style="@style/button"
+		android:layout_gravity="center_horizontal"
+		android:text="Wipe the phone"/> 
+</LinearLayout>

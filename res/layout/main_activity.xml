@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#ececec"
+  android:gravity="center"
+  android:orientation="vertical"
+  android:padding="30dip">
+  <ImageView 
+  		android:id="@+id/ImageView01" 
+  		android:layout_width="wrap_content" 
+  		android:layout_height="wrap_content" 
+  		android:src="@drawable/fin_droid_lost_logo"
+  		>
+  </ImageView>
+  <Button
+		android:id="@+id/btn_start"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		style="@style/button"
+		android:text="SEARCH A PHONE"/>
+</LinearLayout>

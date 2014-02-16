@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="ringTimeEntries">
+	<item>10 sec</item>
+	<item>20 sec</item>
+	<item>30 sec</item>
+	<item>1 min</item>
+	<item>2 min</item>
+	<item>5 min</item>
+</string-array>
+<string-array name="ringTimeValues">
+	<item>10000</item>
+	<item>20000</item>
+	<item>30000</item>
+	<item>60000</item>
+	<item>120000</item>
+	<item>300000</item>
+</string-array>
+</resources>

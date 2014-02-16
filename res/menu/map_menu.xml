@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:id="@+id/map_group">
+	<item android:id="@+id/my_loc_menu_item"
+	android:orderInCategory="1"
+	android:title="My location"
+	/>
+	<item android:id="@+id/lost_loc_menu_item"
+	android:orderInCategory="2"
+	android:title="Phone's Location" 
+	/>
+	<item android:id="@+id/navigate_menu_item"
+	android:orderInCategory="3"
+	android:title="Get directions" 
+	/>
+	<item android:id="@+id/phone_options"
+	android:orderInCategory="4"
+	android:title="Phone options"
+	/>
+	</group>
+</menu>

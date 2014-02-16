@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+  	<PreferenceCategory
+  	android:title="GPS and Search">
+  	<CheckBoxPreference
+  	android:key="enableService"
+  	android:title="Enable FinDroid"
+  	android:summary="Enable the application for receiving requests"/>
+  	</PreferenceCategory>
+  	<PreferenceScreen
+  	android:title="Alert settings"
+  	android:summary="Set alert keywords and other settings">
+  	<EditTextPreference
+  	android:key="gpsKeyword"
+  	android:defaultValue="locate my phone"
+  	android:title="GPS keyword"
+  	android:summary="This keyword will provide you the GPS location"/>
+  	<EditTextPreference
+  	android:key="ringKeyword"
+  	android:title="Ring keyword"
+  	android:defaultValue="ring my phone"
+  	android:summary="This keyword will ring the phone at full volume even in Silent Mode"/>
+  	<ListPreference
+  	android:key="ringTime"
+  	android:title="Ring time"
+  	android:summary="Set the amount of time this phone will ring"
+  	android:entries="@array/ringTimeEntries"
+  	android:entryValues="@array/ringTimeValues"
+  	android:dialogTitle="Set ring time"/>
+  	<EditTextPreference
+  	android:key="lockKeyword"
+  	android:title="Remote lock keyword"
+  	android:defaultValue="lock my phone"
+  	android:summary="This keyword will remotely lock the phone"/>
+  	<EditTextPreference
+  	android:key="wipeKeyword"
+  	android:title="Remote wipe keyword"
+  	android:defaultValue="wipe my phone"
+  	android:summary="This keyword will remotely wipe the phone"/>
+  	</PreferenceScreen>
+  	<PreferenceCategory
+  	android:title="Sim Card Settings">
+  	<PreferenceScreen
+  	android:title="Sim card change"
+  	android:summary="Settings for sim card change detection">
+  	<CheckBoxPreference
+  	android:key="enableSimChangeDetect"
+  	android:title="Enable detection"
+  	android:summary="Enable sim card change detection on every boot"/>
+  	<EditTextPreference
+  	android:key="alertNumber"
+  	android:title="Alert phone number"
+  	android:summary="This number will be alerted on every sim change"
+  	android:dependency="enableSimChangeDetect"/>
+  	<PreferenceScreen
+  	android:title="Register sim card"
+  	android:summary="Register this sim card with the application to avoid sim card change alert"
+  	android:dependency="enableSimChangeDetect">
+  	<intent android:action="android.intent.action.VIEW"
+  	android:targetPackage="com.xhilarate.findroid.full"
+  	android:targetClass="com.xhilarate.findroid.full.SimRegister">
+  	</intent>
+  	</PreferenceScreen>
+  	</PreferenceScreen>
+  	</PreferenceCategory>
+  	<PreferenceCategory
+  	android:title="Advanced">
+  	<PreferenceScreen
+  	android:title="Advanced Settings"
+  	android:summary="Settings for device administration">
+  	<PreferenceCategory
+  	android:title="Device Administration">
+  	<PreferenceScreen
+  	android:title="Enable/Disable Device Admin"
+  	android:summary="Add/remove FinDroid to/from device admin list">
+  	<intent android:action="android.intent.action.VIEW"
+  	android:targetPackage="com.xhilarate.findroid.full"
+  	android:targetClass="com.xhilarate.findroid.full.AdminActivity">
+  	</intent>
+  	</PreferenceScreen>
+  	</PreferenceCategory>
+  	<PreferenceCategory
+  	android:title="Stealth Mode">
+  	<CheckBoxPreference
+  	android:key="abortInbox"
+  	android:title="Enable stealth mode"
+  	android:summary="Prevent incoming messages from entering the inbox"/>
+  	</PreferenceCategory>
+  	</PreferenceScreen>
+  	</PreferenceCategory>
+  	<PreferenceCategory
+  	android:title="Application">
+  	<CheckBoxPreference
+  	android:key="passwordProtect"
+  	android:title="Password protection"
+  	android:summary="Ask the password on starting this application"/>
+  	<com.xhilarate.findroid.full.DialogPreference
+  	android:key="about"
+  	android:title="About"
+  	android:dialogTitle="@string/app_name"
+  	android:summary="About this application and version history"
+  	android:negativeButtonText="@null"/>
+  </PreferenceCategory>
+</PreferenceScreen>
+	

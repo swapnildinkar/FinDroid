@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#ececec"
+  android:orientation="vertical">
+<TextView style="@style/shadowedText" android:text="Sim card details:" android:id="@+id/headText" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:textColor="#000000" android:text="Temp" android:id="@+id/simInfo1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:textColor="#000000" android:text="Temp" android:id="@+id/simInfo2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:textColor="#000000" android:text="Temp" android:id="@+id/simInfo3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:textColor="#000000" android:text="Temp" android:id="@+id/simAlert" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView style="@style/shadowedText" android:text="Registered sim cards:" android:id="@+id/headText2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:textColor="#000000" android:text="Temp" android:id="@+id/registeredSims" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<Button android:layout_gravity="center" style="@style/button" android:text="REGISTER" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnRegister"></Button>
+</LinearLayout>

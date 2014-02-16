@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">FinDroid</string>
+    <string name="about_text">FinDroid is a GPS and Messaging based phone finder application. This application is developed with an intention to provide you help in finding your lost phone. Please refer help for more information on how to use this application. Developed bye Digvijay Gupta, Muzammel Shaikh, Shehbaz Shaikh
+</string>
+</resources>
