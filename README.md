@@ -1,5 +1,8 @@
 FinDroid
 ========
+
+## This application is not being supported anymore, you are free to use the source and send pull-requests.
+
 FinDroid is an Open Source phone finder application for Android
 
 Features:
